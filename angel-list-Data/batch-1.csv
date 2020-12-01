@@ -1,0 +1,469 @@
+﻿IDOFFRE;POSTE;SALAIRE;Location;SKILLS;DESCRIPTION
+0;Software Engineer, Backend;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+What's the role about?
+
+As a Backend Engineer you will work in a long-lived dedicated team/squad alongside contributors of all disciplines (Design, Mobile, Product, Scientists, QA). You and your team will be responsible for an overall company goal and will work together at defining the roadmap that will lead to the most impact.
+
+Currently, Backend Engineers are working in teams like Conversation, Growth, Platform, Predictions and Maps to quote only non-internal team names 🙂
+
+Our stack
+
+The Zenly backend is written mostly in Go with a bit of Rust. We have monorepos for both that host standalone services. Communication from and between services is done using gRPC or GraphQL depending on usecases.
+
+The number of technologies we use is fairly limited as we aim to master the inner workings of what we use in production. Our main database is ScyllaDB (C++ drop-in Cassandra alternative), our real time bus is powered by NATS and our durable event bus is built on top of Kafka. 3 pieces of software that we learned (the hard way) to use properly at scale.
+
+Finally, everything runs in GKE (Google Kubernetes Engine) and supports 100s of thousands of QPS on less than a 1000 cores. Don't hesitate to look at the SRE job opening for additional information on the infra stack.
+
+PS: The client software that communicates with the server is also written in Go and shares a lot with the backend 😃
+
+🔑What you'll do as a Backend Engineer:
+Work as part of a long-lived team, helps define and reach objectives that have an impact on the trajectory of Zenly.
+Participate in the elaboration and delivery of your team's roadmap and ship features that instantly reach millions of users.
+Work hand-to-hand with fellow SREs to design scalable architectures for the features you want to build.
+Write technical specifications and submit their design for review and discussion.
+Build monitoring dashboards to understand how things are doing in production.
+Deploy multiple times a day.
+What type of experience matters for the job:
+Building user-facing features
+Deep knowledge of Rust
+Exposure to architectural patterns of high-traffic environments
+An appetence for distributed-systems and related problematics
+Conducting performance issues analysis (and resolving them 😅)
+🧐What to expect:
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, work alongside smart people
+Build a product that brings people closer to their friends and family"
+1;Software Engineer, Android;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+What's the role about?
+
+As an Android Engineer you will work in a long-lived dedicated team/squad alongside contributors of all disciplines (Backend, Design, iOS, Product, Scientists, QA). You and your team will be responsible for an overall company goal and will work together at defining the roadmap that will lead to the most impact.
+
+Currently, Android Engineers are working in teams like Conversation, Growth, App Platform and Maps to quote only non-internal team names 🙂
+
+Our App
+
+Zenly is written mainly in Kotlin with remains of Java but also quite uniquely in Go (we embed a shared library written in Go that deals with stuff like data synchronization, Network transport and cross-os app feature backends like the Chat or the Location pipeline). Our min SDK is 21 😁
+
+We make extensive usage of RxJava in structural parts of the app like (lifecycle bound tasks, scheduling, multi-threading, reactive UI model, automated tracing) and have a fair number of internal frameworks built on top of it.
+
+Last but not least, we try to push Zenly to the edge of the devices capabilities and had much fun making non traditional heavy UI experiences and animations on Android, sometimes heavily tweaking or going beyond what the system normally provides.
+
+What you'll do as an Android Engineer:
+Participate in the elaboration and delivery of your team's roadmap.
+Work closely with our product and design peers to craft the best experience possible for the Android platform.
+Use Zenly UI/UX principles to build industry leading standards (smooth transitions, one-handed interactions)
+Deliver well-architected products with high bar for UX craft and engineering high quality
+Ensure that what we build works seamlessly on multiple Android devices and in low connectivity areas
+What type of experience matters for the job:
+Building Android apps in Kotlin/Java + std libs with strong knowledge of the Android SDK.
+Crafting elaborate UI interactions
+Solving UI performance issues
+Dealing with somewhat complex multithreading problems
+Digging in large code bases including Android AOSP and API design
+Extensible software design (plugins architecture, API design, DDD)
+🧐What to expect:
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, work alongside smart people
+Build a product that brings people closer to their friends and family"
+2;Software Engineer, iOS;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+What's the role about?
+
+As an iOS Engineer you will work in a long-lived dedicated team/squad alongside contributors of all disciplines (Backend, Design, iOS, Product, Scientists, QA). You and your team will be responsible for an overall company goal and will work together at defining the roadmap that will lead to the most impact.
+
+Currently, iOS Engineers are working in teams like Conversation, Growth, App Platform and Maps to quote only non-internal team names 🙂
+
+Our App
+
+Zenly is written mainly in Swift but also quite uniquely in Go (we embed a shared library written in Go that deals with stuff like data synchronization, Network transport and cross-os app feature backends like the Chat or the Location pipeline). We only support iOS 11+ 😁
+
+We make extensive usage of RxSwift in structural parts of the app like (lifecycle bound tasks, scheduling, multi-threading, reactive UI model, automated tracing) and have a fair number of internal frameworks built on top of it.
+
+Last but not least, we try to push Zenly to the edge of the devices capabilities and had much fun making non traditional heavy UI experiences and animations on iOS, sometimes heavily tweaking or going beyond what the system normally provides.
+
+What you will do as an iOS Engineer:
+Work as part of a long-lived team, together help define and reach objectives that have an impact on the trajectory of Zenly.
+Participate in the elaboration and delivery of your team's roadmap.
+Work closely with our product and design peers to craft the best experience possible for the iOS platform.
+Focus on Zenly UI/UX principles to build industry leading standards (smooth transitions, one-handed interactions)
+Deliver well-architected products with high bar for UX craft and engineering quality
+Focus on performance and optimization to ensure what we build works seamlessly on multiple iOS devices and in low connectivity areas
+What skills & experiences matter for the job:
+Building iOS apps in ObjC/Swift + std libs with strong knowledge of the iOS SDK.
+Crafting elaborate UI interactions
+Solving UI performance issues
+Dealing with somewhat complex multithreading problems
+Digging in large code bases and API design
+Extensible software design (plugins architecture, API design, DDD)
+🧐What to expect:
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, work alongside smart people
+Build a product that brings people closer to their friends and family"
+3;Software Engineer, Full Stack;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+What's the role about?
+
+We are looking for a Software Engineer with a taste for Frontend development. In this position you will be working as a part of the “User & Friends” team and you will be driving the design and implementation of the tools that enable Zenly to serve millions of users all over the world 🚀.You will be in charge of the architecture/maintenance and addition of several modules required to support our daily growth.
+
+What will you be doing as a Fullstack Engineer?
+Own our back office: Core feature used on a daily basis by staff members with plenty of functionalities among which : managing end-users issues with first level diagnosis, managing known places, advanced statistics visualisation of our user base etc. The stack is composed of a Single Page Application written in TypeScript / React / Redux and consumes APIs either in REST or in GraphQL on our backend services.
+Own Cerberus: a tailor-made tool used by our Care team to handle the relationships with our users. Part of that responsibility involves ensuring user safety helping the dedicated 20+ people team worldwide in charge of the management of IBRs (Inappropriate Behavior Reports). This tool allows them to interact and react fast when users are reporting inappropriate behaviors on Zenly. You will be the owner of that tool built using TypeScript / nodeJS / GraphQL / PostgreSQL / Docker.
+What type of skills and experience matters to us for the job?
+A track record on delivering front-end code as well as significant backend components (ideally using Go or Rust)
+You are autonomous, able to work in a high throughput environment and have a strong empathy towards end-users
+Ability to integrate software components in existing systems while understanding and keeping in mind the big picture
+What you can expect
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, work alongside smart people
+Participate in building a product with positive incentives"
+4;Software Engineer Internship;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+The project:At the entrance of our office, we display a real time 3d visualisation of the social interactions of our users. It’s one of the most important thing for us to see every morning :)In a constant effort to improve what we build, we're looking for someone to help us in making it next level 🚀!
+
+What you'll do, as an intern:- build new features as well as improving this project (made in Javascript / WebGL).- learn and participate in various other projects with other team members
+
+What skills matter for the job:- Experience with 3D Programming- Experience with WebGL is a plus :)
+
+🧐What to expect:- Have direct impact, in days, on the company - Be part of a company with ethics, along smart people- Participate in building a product with positive incentives- Enjoy our office in the Bastille area, built around a green atrium, with a fully equipped kitchen, rest areas, sound isolation booths, climbing wall between 2 floors and a massive hammock :)"
+5;Lead Data Platform Engineer;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+What's the role about?
+
+One of Zenly’s backend key components is our Data Platform which allows us to:- Support an analytics bus which handles versioning, processing, anonymising and storing data on our data lake- Batch process data at scale but also ingest data from external sources- Provide analytics as a service to plenty of stakeholders (customer facing features included)
+
+Our current stack is made of the following technologies: gRPC / Protobuf / Go / Kafka / Scala / Parquet / GCS / BigQuery / Spark / Airflow / Amplitude.
+
+We’re looking for a Senior Engineer to take the responsibility of the current Data Platform and build a team whose sole purpose will be to support our growth and achieve drastic performance improvements to our soft real time capabilities.
+
+As a Lead Data Platform Engineer you will take ownership of the existing assets and will work closely with the people who built them. You will have to act as a local product manager, a team leader and an architect on that perimeter but also a strong individual contributor who will assess / implement a significant part of the work to be done.Your core challenge will be to handle x4 our current load in a year, x20 in two years.
+
+What you'll do as a Lead Data Platform Engineer:
+Assess the platform / tech stack which will support our future scale (Apache Beam / DataFlow for ex.)
+Scala/Spark migration of the whole analytics data ingestion pipeline
+Work on performance improvements on historical data computations, currently in days/weeks which should be achieved in hours
+Introduce Spark ML in soft real time for several features
+What type of experience matters for the job
+You have a track record of mastering data ingestion / data processing techniques
+You have a broad knowledge of the industry practices.
+You’re a continuous learner, you aim at building the most powerful data pipelines in the industry and already have extensive experience regarding the challenges of processing petabytes of data (production scars included).
+🧐What to expect:
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, work alongside smart people
+Build a product that brings people closer to their friends and family"
+6;Data Analyst;;Paris;;"Zenly was created because we wanted an easy way to know what our friends were doing. Naturally we created an app - a map that lets you see your friends and what they’re up to. Millions of people around the world have since made us realize that Zenly goes beyond letting you know what your friends are doing. It actually brings you to spend more time with the people who matter most and moves you a little closer to them even when you can’t. We’re a small team of <60 passionate people determined to offer an alternative to products that were meant to connect us but only alienated us. An alternative that represents a true reflection of your world and those you care most about.Try it out with your dear ones on Apple Store OR Google Play Store. 🤪
+
+Our Growth Team
+
+The Growth Team is a cross-functional team of product designers, data analysts and engineers. The main goal is to increase the number of users by optimizing the application through continuous experimentations. We use a data-driven approach to identify opportunities, generate hypotheses, design and test experiments on any feature of the application.
+
+What you'll do as Data Analyst:
+Participate in the design, implementation, monitoring and evaluation of experiments
+Conduct advanced quantitative analysis on large and complex data sets to understand the product and identify growth opportunities
+Create testing strategies (e.g. A/B testing) to optimize the time-to-insights for growth experiments
+Design and implement dashboards to monitor the relevant metrics and get valuable learnings
+Perform in-depth analysis on experimental and observational data to understand user behavior, interpret the findings and communicate the learnings to the rest of the organization
+Develop new statistical approaches, experimentation methodologies to improve the growth cycle/process
+Some examples of projects we do in the Growth Team:
+Optimize the on-boarding flow
+Provide the user with easier ways to invite their friends
+Increase the friend requests delivery rate
+Improve the first experience with the application
+What type of experience matters for the job:
+2+ years minimum experience working with large data sets and turning complex data into actionable insights
+Strong knowledge of SQL to manipulate and analyze relational databases
+Ability to translate data into easy-to-understand reports
+Performance driven and willing to take action quickly
+Self-motivated and energetic team player with a strong work ethic and cooperative attitude
+[BONUS] Experience with A/B test principles and methodologies for controlled experiments
+🧐What to expect:
+Have direct impact, in days, on the company growth
+Be part of a company with ethics, along smart people
+Participate in building a product with positive incentives
+Enjoy our office in the Bastille area, built around a green atrium, with a fully equipped kitchen, rest areas, sound isolation booths, climbing wall between 2 floors and a massive hammock :)"
+7;Senior Product Manager;$80k – $100k • No equity;Austin • Remote;Product Management,Product Marketing,Product Development,Education,Project Management,Product Strategy,Digital Marketing,Marketing Management,Educational Programs Planning/Development,Product Design;"We are looking for a Senior Product Manager who will be working very closely with the company leadership to build upskilling solutions for marketers.
+
+You will own product strategy and execution, manage the product team.
+
+For CXL, product is not software, but content. We're building the world's premier destination for data-driven marketing education.
+
+The content is a mix of pre-recorded video courses and live online training programs, all wrapped in a customer experience blanket inside a subscription product.
+
+The role is to help CXL build training programs that are 10x better than the next alternative.
+
+This role will report directly to the CEO.
+
+ABOUT CXL Institute
+
+CXL Institute is a leader in online training products for technical marketing: conversion optimization, growth marketing and digital analytics.
+
+We’re a small business with strong organic growth, and with a big impact. We punch above our weight, and have ambitious growth goals.
+
+In just 4 short years CXL Institute has built a reputation as the destination for data-driven marketing training. In addition, we run 2 world class conferences each year (well, we did before 2020 anyway).
+
+We’re self-funded, profitable, and have been growing every single year around 40-45%. We’re proud of that, but we want to grow faster.
+
+We deliver known quality, and have a strong brand - among those who know us. There are a lot of fans out there.
+
+Key challenges:
+
+Accelerating growth
+Standing out in the mature and competitive category of e-learning
+Customer retention (industry-wide challenge in online learning)
+
+The right candidate can grasp the full breadth and scope of our current situation and competitive landscape, and work closely with the leadership to understand how to improve our offering, develop our competitive strategy, and deliver a fast implementation from the team.
+
+ABOUT THE JOB AND THE WORK
+
+This role combines execution and strategy. You will be a key influencer in how we drive forward our product direction and development.
+
+What you will do:
+
+The primary goal of this role is to shape and develop the training products CXL builds.
+
+3 areas of responsibility:
+
+Learning
+
+You will own topics like:
+
+What should we teach?
+How can our existing training programs be 10x better than anything else out there?
+How can we organize the product delivery in the best way?
+What does a 10x learning experience looks like?
+How are we delivering the learning experience now?
+
+You will work to identify opportunities, build and deliver curriculums, develop thought frameworks. You own end to end development of the product content, delivery, and go to market strategy.
+
+In doing this, you will collaborate with the worlds leading practitioners to gather, analyze, synthesize and structure detailed information around the training focus areas.
+
+You work with the team to produce world class online courses, and optimize the processes for course production.
+
+During and after the delivery of our training products, you execute user feedback sessions to refine positioning and improve overall quality and depth of our programs.
+
+Customer experience
+
+Work to ensure we provide a 'wow' customer experience while achieving customer success (customers achieving their desired outcomes).
+
+How to deliver consistently amazing experience to all learners, so it stands out and becomes our competitive advantage?
+
+Team management
+
+You manage the product team that includes product ops, videography, associate PM, developers etc.
+
+ABOUT YOU
+
+You know marketing, know the problems that keep VP marketing and CMO level people up at night, have tons of hands-on experience
+You know product management
+You're technical. From product analytics to javascript to eliminating data silos with CDPs.
+
+You understand what it takes today for a marketer to succeed, what kind of talent companies are looking for, and the challenges with finding people with certain skill sets.
+
+If you love digital marketing, have great technical skills, enjoy the idea of working on putting together curriculums and innovative learning programs, and love a scrappy roll-up-your-sleeves environment, this might be a perfect fit.
+
+We would love to hear from you if:
+
+Significant experience in executing data-driven marketing
+Deep analytical and quantitative problem solving skills
+Experience building world class products
+Love for learning and teaching. Ability to communicate complex ideas in a well structured and easy to consume way
+Experience with quantitative and qualitative market research methods
+Prototyping skills (Figma, Sketch)
+Love to collaborate with others, have a large network of top professionals you can rely on
+
+ABOUT COMPENSATION
+
+Ideal candidate would be based out of Austin, TX (like the bulk of the team), and would work out of our office once we return there, but we're open to remote (in the Americas time zones).
+
+Competitive salary + health care.
+We don’t overwork people, it’s a 40 hour work week.
+You get a fun, driven team of colleagues to work with.
+28 paid vacation days - plenty of time to sharpen the saw
+All-you-can-learn from CXL Institute: full access to all courses - we’re an education business after all
+Unlimited sick leave - stay home, get well
+Flex hours - we care about shipping, not when you’re at the office"
+8;Software Engineer;€50k – €85k • No equity;Lyon • Remote;Node.js,React.js,NodeJS,ReactJS;"GitBook is a modern documentation platform sustained by some of the best SaaS europeans VCs (Point 9 Capital, Notion Capital, Fly VC). Our ambition is to empower team's intelligence, we want to help teams work more efficiently by creating a single place to leverage their knowledge.
+
+GitBook is now used by over 1M users and thousands of teams such as Adobe, Netflix, Decathlon, or Google. We're working on a next product step to redefine ""core team work"" and we're looking for a Software Engineer (working remotely) to join our team and help us achieve on our ambition.
+
+🙌What will you be doing ?
+
+Part of our Product & Engineering team, as a Software Engineer your daily mission will include:
+
+You'll implement new features and services to help millions of users who rely on us. Both by working on our backend, but also on end-to-end features.
+You'll help scale GitBook to better serve hundreds of millions of page views and edits.
+You'll improve the performance and reliability of our application and backend, like our databases, APIs or realtime backend.
+You'll work to make GitBook a robust and secure solution for all of our users.
+🛠️What technical stack will you be working on ?
+
+We’re working on a server-less architecture (using Firebase and Google Cloud services) in NodeJS and React (both in Typescript).
+
+Learn more about our stack.
+
+You will be valued for :
+your technical expertise, as you already have experience developing a web application that scaled to millions of users.
+your engineering experience, as you have a strong understanding of how a web application is built and delivered to end-users, being comfortable with topics such as performance optimisation, data synchronisation, and caching. Your experience in application monitoring and debugging will also be valued and it will be an added plus if you have experience with server-less infrastructure.
+your product-oriented mindset. You are not only focused on technical and engineering aspects but you also keep in mind that we're building a product to solve our users' pain-points.
+
+👥 Every single team member is a value addition to our culture, so it's important for us to state our values.
+
+👍While joining GitBook, you will also appreciate our Perks & Benefits.
+
+✨What’s next ?
+First, you need to send us your application to express your interest and we will review it (of course we'll get back to you whatever the decision)
+As the next step, our Talent Acquisition Manager will call you so the both of you will be able to ensure there is a correlation between GitBook's expectations, the role and your own expectations.
+Then, you will be meeting with two members of our Product & Engineering Team during two separate meetings to share about role specifics such as required skills, knowledge, abilities as well as working environment, day-to-day life...
+Finally, you will have the opportunity to meet with the entire team to get a preview of GitBook’s culture and daily life."
+9;Product Engineer;;Europe • Remote;;"GitBook is a modern documentation platform sustained by some of the best SaaS europeans VCs (Point 9 Capital, Notion Capital, Fly VC). Our ambition is to empower team's intelligence, we want to help teams work more efficiently by creating a single place to leverage their knowledge.
+
+GitBook is now used by over 1M users and thousands of teams such as Adobe, Netflix, Decathlon, or Google. We're working on a next product step to redefine ""core team work"" and we're looking for a Product Engineer (working remotely) to join our team and help us achieve on our ambition.
+
+What will you be doing ?
+
+Part of our Product & Engineering team, as a Full-stack Engineer your daily mission will be to implement the product vision while developing an outstanding experience for our customers. You will have a direct impact on our users and its very perceptible.
+
+On a daily basis, you will be working on :
+
+Development : You will be taking ownership on features development, working on the whole stack (even though each members of the Product & Engineering team has his/her own specialities), imagining new features to solve our customers problems, working on refactoring, bug fixes and flows that impact users.
+
+Design: You will be able to imagine new features and share your ideas, usually by sketching things up and discussing about it with our designer.
+
+Support: Every team member should be informed of the state of the product, and there is nothing better than having everybody on support. At GitBook, each Product Engineer takes responsibility toward the end user to solve its problems on the application (in a reasonable way).
+
+What technical stack will you be working on ?
+
+We’re working on a server-less architecture (using Firebase and Google Cloud services) in NodeJS and React (both in Typescript).
+
+Learn more about our stack.
+
+You will be valued for :
+
+your technical expertise as you are able to implement changes to the product on your own, build scalable technical solutions and maintain them over time.
+your engineering experience as you know how to help engineering teams build faster better solutions.
+your product oriented mindset as you are not only focused on technical aspects. You have a deep interest in identifying and solving problems for our users. To do so, you stay informed on UI, UX and competitors which enables you to improve the product by suggesting innovative solution, design initiatives and challenging usage.
+
+Every single team member is a value addition to our culture, so it's important for us to state our values.
+
+While joining GitBook, you will also appreciate our Perks & Benefits.
+
+What's next ?
+First, you need to send us your application to express your interest and we will review it (of course we'll get back to you whatever the outcome)
+As the next step, our Talent Acquisition Manager will call you so the both of you will be able to ensure there is a correlation between GitBook's expectations, the role and your own expectations.
+Then, you will be meeting with several members of our Product & Engineering Team during two separate meetings to share about role specifics such as required skills, knowledge, abilities as well as working environment, day-to-day life...
+Finally, you will have the opportunity to meet with the entire team to get a preview of GitBook’s culture and daily life."
+10;Product Manager;€50k – €85k;Lyon • Remote;Product Management,Product Discovery,Product Road map & Feature Prioritization;"GitBook is a modern documentation platform sustained by some of the best SaaS europeans VCs (Point 9 Capital, Notion Capital, Fly VC). Our ambition is to empower team's intelligence, we want to help teams work more efficiently by creating a single place to leverage their knowledge.
+
+GitBook is now used by over 1M users and thousands of teams such as Adobe, Netflix, Decathlon, or Google. We're working on a next product step to redefine ""core team work"" and we're looking for a first Product Manager (working remotely) to join our team and help us align on product thinking and explore product direction.
+
+🙌 What will you be doing ?
+
+We understand the strategic value a great PM will bring to our cross-functional team (design, engineer, customer success, growth…) to help us build and scale into a world-class organisation. We also know that being the 1st PM in a product-led company might be challenging, so we’re looking for someone who is as excited as us to seize this opportunity!
+
+On a daily basis you will work on :
+
+Product discovery :
+
+Adopt a market driven approach to have a full understanding of our product, our business, and the competitive landscape.
+Continuously engage with stakeholders (internally and externally) to understand their pain points, motivations and needs and be their voice (internally).
+Nurture our product vision and ensure our team is empowered through research by gathering qualitative and quantitative data (user feedback, data analysis, competitors, user research…).
+
+Product roadmap and prioritisation :
+
+Turn all insights into an actionable product roadmap to guide the development of our product.
+Constantly prioritise a rapidly-evolving product alongside an expanding growth effort to maximise the impact on the user experience and the business.
+Analyse features performance, adoption, product usage to drive insights and align our product direction.
+Work closely with our Product & Engineering team to find the best solution to better serve millions of users who rely on us.
+
+Product culture :
+
+Always communicate the “why” to make sure the team understand the roadmap and embrace it.
+Facilitate and collaborate on workshops and meetings designed to help the team make sense of the product and potential impact.
+Implement and iterate on our collaboration process as an evolving team.
+Bring the best out of the discrete skills in the team and empower everyone’s ownership so we’re all contributing towards aligned goals
+
+Every single team member is a value addition to our culture, so it's important for us to state our values.
+
+While joining GitBook, you will also appreciate our Perks & Benefits.
+
+✨ What's next ?###
+First, you need to send us your application to express your interest and we will review it (of course we'll get back to you whatever the outcome) 🙂
+As the next step, our Talent Acquisition Manager will call you so the both of you will be able to ensure there is a correlation between GitBook's expectations, the role and your own expectations.
+Afterwards, you will be meeting with members of our team during two separate meetings to share about role specifics such as required skills, knowledge, abilities as well as working environment, day-to-day life...
+Finally, you will have the opportunity to meet with the entire team to get a preview of GitBook’s culture and daily life"
+11;Cloud Support Engineer;;India • Bengaluru;;"At Couchbase, big things happen. Every day, we’re translating vision into reality by tackling new and exciting challenges head-on. This is a breakthrough stage in our company, where the enthusiasm of our employees and leadership team is infectious and growing. You’ll have the opportunity to learn new skills, grow your career, and work with the smartest, most passionate people in the industry.
+
+The Cloud Support Engineer will have the primary accountability of designing, implementing and operating Couchbase’s Cloud platforms. The team operates with a “run what you write” philosophy and each engineer is responsible for deploying and operating the code they write. A successful candidate must have demonstrable experience in at least one programming language, previous work in SaaS application development and operations. The ideal candidate will also have prior experience developing applications on either of the three major cloud platforms - AWS, Azure, and GCP.
+
+Responsibilities
+Design, creation, and provisioning of infrastructure.
+Deploy and maintain applications.
+Design, build, manage and operate the infrastructure and configuration of SaaS applications with a focus on automation and infrastructure as code.
+Design, build, manage and operate the infrastructure as a service layer (hosted and cloud-based platforms) that supports the different platform services.
+Develop comprehensive monitoring solutions to provide full visibility to the different platform components using tools and services like Kubernetes, Prometheus, Grafana, ELK, Datadog, New Relic and other similar tools.
+Experience working within an Agile/Scrum SDLC
+Integrate different components and develop new services with a focus on open source to allow a minimal friction developer interaction with the platform and application services.
+Identify and troubleshoot any availability and performance issues at multiple layers of deployment, from hardware, operating environment, network, and application.
+Evaluate performance trends and expected changes in demand and capacity, and establish the appropriate scalability plans
+Troubleshoot and solve customer issues on production deployments
+Ensure that SLAs are met in executing operational tasks
+Collaborate with other engineers to implement operational solutions while defining, adhering to industry best practices.
+Experience in Building and managing Virtualized systems (KVM, OVM, Containers/Docker) and ability to read and understand source code
+Systematic problem-solving approach, combined with a strong sense of ownership and drive.
+Conduct periodic on-call duties
+Working knowledge of information security issues
+Firm grasp of at least one modern programming language, beyond advanced scripting (Shell, Perl, Python)
+Solid experience using configuration management frameworks (e.g. Chef, Puppet)
+Working knowledge of web and network protocols and standards (HTTP, TLS, DNS, etc)
+Experience writing automation tools & eagerness to ""automate all the things""
+Qualifications
+5+ years related professional experience
+Strong experience with Infrastructure as Code and Configuration Management tools.
+Demonstrated knowledge of the ELK stack.
+Experience with Prometheus/Grafana for metrics aggregation/visualization.
+Configuration of CI/CD pipelines using Jenkins.
+Experience using Kubernetes.
+Experience with automation tools/platforms.
+Experience with alerting and monitoring tools.
+Experience with Terraform is a plus.
+Experience working in a highly distributed company is a plus.
+Experience writing backend applications is not required but definitely a plus.
+Experience working within an Agile/Scrum SDLC.
+Align a portion of your day with the business hours of Pacific Time Zone - UTC -8"
+12;Senior Performance Engineer;;India • Bengaluru;;"At Couchbase, big things happen. Every day, we’re translating vision into reality by tackling innovative and exciting challenges head-on. This is a breakthrough stage in our company where our enthusiasm is infectious and growing. You’ll have the opportunity to learn new skills, grow your career, and work with the smartest, most passionate people in the industry. At Couchbase, you get to end each workday knowing that what you do matters. Enjoy the journey.
+
+As a Senior Performance Engineer, you will be working on complex distributed systems, databases and large clustered datasets. You will focus on optimizing overall product performance, and will work with the Development, QE (Quality Engineering), and Product teams to deliver high quality initiatives for all our products throughout their development life cycles.
+
+Responsibilities
+Coordinate with the Dev / QE / Support / PM teams to review and document requirements, execute performance tests and troubleshoot/resolve (blocking) issues.
+Design and conduct tests with complex workloads and data shapes to expose potential bottlenecks and failure points.
+Analyze performance results to identify system inefficiencies and suggest optimizations to address the same.
+Look for ways to improve user experience and system efficiencies.
+Analyze metrics and trends to glean opportunities for performance improvements of our systems.
+Conduct technical presentations to educate teams on how to improve system performance.
+Innovate solutions to improve performance engineering effectiveness.
+Requirements
+7+ years of experience in performance engineering.
+Strong coding skills (Python, Go or Java).
+Ability to convert customer issues to automated performance tests.
+Strong experience in bottleneck analysis, profiling, and tracing.
+Strong knowledge on database performance.
+Strong hands on experience on system monitoring tools and frameworks.
+Solid communication skills: demonstrated ability to explain complex technical issues to both technical and non-technical audiences.
+Self-directed and self-motivated individual who takes complete ownership of the product and its outcome.
+Knowledge of mobile technologies will be additional advantage.
+Minimum Qualification
+Bachelor in Computer Science or Information Technology"
+13;Senior Software Engineer;$110k – $150k AngelList Est.;California • Santa Clara;;"At Couchbase, big things happen. Every day, we’re translating vision into reality by tackling innovative and exciting challenges head-on with a team that prioritizes honesty, transparency, and humility. This is a breakthrough stage in our company, where the enthusiasm of our employees and leadership team is infectious and growing. You’ll have the opportunity to learn new skills, grow your career, and work with the smartest, most passionate people in the industry. At Couchbase, you can go home knowing that you have an impact. What we do matters. Enjoy the journey.
+
+This role is also open to remote work within US as our teams are distributed all over the world!
+
+What are we up to?If you like working on high performance enterprise software, then you’ll like this! As a Senior Software Engineer in our R&D team, you will help build cutting-edge distributed, shared-nothing architecture of our NoSQL software. You will be part of a team creating NoSQL database products used by hundreds of modern enterprises and applications, tackling the hardest problems our customers have, and employing your skills in - Golang, Java, C/C++, Erlang, JavaScript and/or Python (with possibly a few other languages thrown in for good measure). This is a very exciting time to build something new and innovative for the databases of the future. Like open source? So do we: Couchbase and its engineers are active open source contributors for Couchbase, memcached, and other projects.While other NoSQL vendors may experience architectural limitations, Couchbase architects all of its own systems with a laser-focus on high performance use cases for largest modern enterprise applications. Your engineering contributions will be the key in helping Couchbase to keep our performance advantage over the competition.
+
+RESPONSIBILITIES - You willTranslate product requirements into engineering requirements and write high quality performing code. Design and implement mission-critical code coverage as it pertains to the data model for a scale-out database. Debug and fix issues by participating in high quality code reviewsAlign with Indexing, Support, Mobile, Search, Storage and Clustering teams to integrate new features into our data platform. Engineer needle-moving tools and features with simplicity, elegance and economy. Be agile! Think quality! Think leverage!
+
+PREFERRED QUALIFICATIONSYou are passionate about database architecture and systemsYou can hack in several of your preferred languages from C/C++, Java, and Python to Erlang and GoYou have multiple years of commercial and/or open source software experienceYou think that distributed systems are amazingYou’re self-motivated, independent and a quick learning person who likes to take on challenges You like working in organizations that strive to stay ahead of the curve by rapidly moving the technological innovation.
+
+MINIMUM QUALIFICATIONSMasters Degree in Computer Science or commensurate experience You’re an excellent teammateExcellent written and verbal communication skills
+
+#LI-RemoteUS#LI-RemoteCA"

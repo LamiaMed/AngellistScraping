@@ -1,0 +1,30 @@
+{
+  "name": "Angellist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-cookies-secure": "^1.3.2",
+    "csv-writer": "^1.6.0",
+    "document": "^0.4.7",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "mysql": "^2.18.1",
+    "perf_hooks": "0.0.1",
+    "puppeteer": "^5.5.0",
+    "puppeteer-autoscroll-down": "^0.1.6",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-recaptcha": "^3.2.2",
+    "puppeteer-extra-plugin-stealth": "^2.6.5",
+    "readline-sync": "^1.4.10",
+    "user-agents": "^1.0.559",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
